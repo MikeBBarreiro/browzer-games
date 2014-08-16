@@ -1,4 +1,19 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+
+#link{
+  padding-left: 100px;
+}
+nav{
+  display: inline-block;
+  margin-left: 260px;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
 
 *{
   font-family: 'Open Sans', sans-serif;
@@ -6,7 +21,52 @@
 }
 
 body{
-  background-image: url(/img/node.png);
+  /*background-image: url(http://www.hdwallpapers.in/walls/colorful_courtains-wide.jpg);*/
   background-size: cover;
 }
 
+.box {
+  display: inline-block;
+  border: 1px solid black;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+#colors {
+  background-color:#4A5661;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.color{
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 10px;
+}
+
+#selected {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border: 1px solid black;
+  background-color: white;
+  margin: 10px;
+  border-radius: 100px;
+}
+
+.pixal {
+  /*border: 1px solid black;*/
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 100px;
+}
+
+#canvas {
+  font-size: 0px;
+}
